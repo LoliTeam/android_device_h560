@@ -68,7 +68,7 @@ TARGET_KERNEL_SOURCE := kernel/jiayu/s3_h560
 TARGET_KERNEL_CONFIG := h560_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 
-KERNEL_TOOLCHAIN := /home//gcc-linaro-5.3.1-aarch64-linux-gnu/bin
+KERNEL_TOOLCHAIN := /home/gcc-linaro-5.3.1-aarch64-linux-gnu/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
 
 #TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
