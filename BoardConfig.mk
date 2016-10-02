@@ -61,17 +61,17 @@ MTK_PLATFORM := mt6752
 MTK_PROJECT := 6752
 
 # kernel
-#TARGET_KERNEL_ARCH := arm64
-#KERNEL_ARCH := arm64
-#TARGET_KERNEL_HEADER_ARCH := arm64
-#TARGET_KERNEL_SOURCE := kernel/jiayu/s3_h560
-#TARGET_KERNEL_CONFIG := s3_h560_defconfig
-#BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+TARGET_KERNEL_ARCH := arm64
+KERNEL_ARCH := arm64
+TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_SOURCE := kernel/jiayu/s3_h560
+TARGET_KERNEL_CONFIG := h560_defconfig
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 
-#KERNEL_TOOLCHAIN := /home/vgdn1942/gcc/gcc-linaro-5.2-aarch64-linux-gnu/bin
-#KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
+KERNEL_TOOLCHAIN := /home//gcc-linaro-5.3.1-aarch64-linux-gnu/bin
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
 
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
+#TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
 
 TARGET_USES_64_BIT_BINDER := true
 TARGET_IS_64_BIT := true
